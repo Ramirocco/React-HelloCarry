@@ -1,0 +1,8 @@
+.UlMenuNavBar{ display: flex; flex-direction: row;
+    .LiMenuNavBar{list-style: none; 
+        .AMenuNavBar{ color: white; text-decoration: none; margin: 0 7px; 
+        &:active {font-weight: 700;}
+        &:hover {text-decoration: underline ;}
+    }
+    }
+}

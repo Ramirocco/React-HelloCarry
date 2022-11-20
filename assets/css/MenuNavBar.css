@@ -1,0 +1,18 @@
+.UlMenuNavBar {
+  display: flex;
+  flex-direction: row;
+}
+.UlMenuNavBar .LiMenuNavBar {
+  list-style: none;
+}
+.UlMenuNavBar .LiMenuNavBar .AMenuNavBar {
+  color: white;
+  text-decoration: none;
+  margin: 0 7px;
+}
+.UlMenuNavBar .LiMenuNavBar .AMenuNavBar:active {
+  font-weight: 700;
+}
+.UlMenuNavBar .LiMenuNavBar .AMenuNavBar:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=MenuNavBar.css.map */

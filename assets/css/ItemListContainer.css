@@ -2,6 +2,8 @@
   margin: 20px;
 }
 .titulo .HydraLaPlata {
-  color: white;
+  color: black;
+  text-transform: uppercase;
   font-size: large;
+  font-weight: 700;
 }/*# sourceMappingURL=ItemListContainer.css.map */

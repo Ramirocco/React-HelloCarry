@@ -1,12 +1,12 @@
-import { CardWidget } from "../CartWidget/CartWidget";
-import { ItemListContainer } from "../ItemListContainer/ItemListContainer.js";
+import { CardWidget } from "./CartWidget/CartWidget";
+import { MenuNavBar } from "../NavBar/MenuNavBar/MenuNavBar";
 
 export const NavBar = () => {
     return (
         <div>
             <nav className="navbar bg-primary">
-            <ItemListContainer greeting={"Hydra La Plata"}/>
-                <CardWidget/>
+                <MenuNavBar />
+                <CardWidget />
             </nav>
         </div>
     );
