@@ -1,10 +1,13 @@
 import { CardWidget } from "../CartWidget/CartWidget";
 
-export const NavBar = ()=> {
+export const NavBar = () => {
     return (
-        <nav>
-        <CardWidget/>
-        </nav>
+        <div>
+            <nav>
+                <CardWidget/>
+            </nav>
+        </div>
+
 
     );
 }
