@@ -1,6 +1,7 @@
 .UlMenuNavBar {
   display: flex;
   flex-direction: row;
+  max-width: 60vw;
 }
 .UlMenuNavBar .LiMenuNavBar {
   list-style: none;
@@ -9,6 +10,7 @@
   color: white;
   text-decoration: none;
   margin: 0 7px;
+  padding: 5px;
 }
 .UlMenuNavBar .LiMenuNavBar .AMenuNavBar:active {
   font-weight: 700;

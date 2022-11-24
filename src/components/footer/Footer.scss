@@ -1,0 +1,29 @@
+.Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #1A223C;
+    align-content: center;
+
+    p {
+        color: white;
+        margin: 0;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+
+        p {}
+
+        a {
+            color: white;
+
+            img {
+                color: white;
+                width: 40px;
+            }
+        }
+    }
+}

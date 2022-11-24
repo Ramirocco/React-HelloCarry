@@ -1,0 +1,22 @@
+.LogoYNombre {
+    display: flex;
+    flex-direction: row;
+    max-width: 30vw;
+    align-items: center;
+        .ContenedorImagen {
+            width: 40%;
+            display: flex;
+            justify-content: end;
+            img {
+            width: 60%;
+            }
+        }
+        h1 {
+            font-size: medium;
+            color: rgb(255, 255, 255);
+            font-size: x-large;
+            font-weight: 500;
+            text-transform: uppercase;
+            .Negrita{ font-weight: 800;}
+        }
+}

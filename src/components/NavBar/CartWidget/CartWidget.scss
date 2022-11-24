@@ -1,6 +1,6 @@
-.ContainerCardWidget{
+.ContainerCardWidget{max-width: 10vw;
     .ContainerImgP{align-items: baseline;
-        svg{ color: orange;}
+        .svg{ color: orange;}
         p{}
     }
 }

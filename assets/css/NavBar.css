@@ -1,0 +1,8 @@
+.NavBar {
+  background-color: #1A223C;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}/*# sourceMappingURL=NavBar.css.map */

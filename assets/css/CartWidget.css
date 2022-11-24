@@ -1,3 +1,6 @@
+.ContainerCardWidget {
+  max-width: 10vw;
+}
 .ContainerCardWidget .ContainerImgP {
   align-items: baseline;
 }

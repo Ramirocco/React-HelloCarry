@@ -1,6 +1,7 @@
 .UlMenuNavBar{ display: flex; flex-direction: row;
+    max-width: 60vw;
     .LiMenuNavBar{list-style: none; 
-        .AMenuNavBar{ color: white; text-decoration: none; margin: 0 7px; 
+        .AMenuNavBar{ color: white; text-decoration: none; margin: 0 7px; padding: 5px; 
         &:active {font-weight: 700;}
         &:hover {text-decoration: underline ;}
     }
