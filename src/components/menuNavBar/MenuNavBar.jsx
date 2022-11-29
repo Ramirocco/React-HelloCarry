@@ -24,6 +24,11 @@ export const MenuNavBar = () => {
             </li>
             <li className="LiMenuNavBar">
                 <a className="AMenuNavBar" href="">
+                    Accesorios
+                </a>
+            </li>
+            <li className="LiMenuNavBar">
+                <a className="AMenuNavBar" href="">
                     Novedades
                 </a>
             </li>

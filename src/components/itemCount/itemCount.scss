@@ -1,0 +1,44 @@
+.Container {display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 400px;
+    border-radius: 10px;
+        border: solid 2px darkblue;
+        background-color: lightblue;
+        height: 300px;
+    .descripcionProducto{
+    }
+    .ManejadorCounter { display: flex;
+        flex-direction: row; 
+        align-items: flex-start; 
+        justify-content: space-between;
+        padding: 0 10px;
+        .Manejador { 
+            padding: 0px 15px; 
+            border: solid 2px darkblue; 
+            border-radius: 10px;
+            }
+        p { 
+            background-color: rgb(167, 241, 241); 
+            color: black; 
+            padding: 0px 30px; 
+            margin: 0px, 10px; 
+            border: solid 2px darkblue;
+            border-radius: 10px;}
+        .BotonAdd {margin-left: 30px;
+            padding:0 10px;
+            border: solid 2px darkblue;
+            border-radius: 10px;
+            background-color: lightblue;
+            &:hover{ background-color:skyblue; 
+            font-weight: 700;
+            -webkit-box-shadow: 7px 9px 15px -7px rgba(0,0,0,0.59);
+-moz-box-shadow: 7px 9px 15px -7px rgba(0,0,0,0.59);
+box-shadow: 7px 9px 15px -7px rgba(0,0,0,0.59);}
+&:active{margin-left: 30px;
+    padding:0 10px;
+    border: solid 2px darkblue;
+    border-radius: 10px;
+    background-color: lightblue;}}
+    }
+}

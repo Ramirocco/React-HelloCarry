@@ -1,6 +1,6 @@
-import { NavBar } from "./components/NavBar/NavBar";
-import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { Footer } from "./components/footer/Footer";
+import { ItemListContainer } from "./components/itemListContainer/ItemListContainer";
+import { NavBar } from "./components/navBar/NavBar";
 
 
 const App = ()=>{
