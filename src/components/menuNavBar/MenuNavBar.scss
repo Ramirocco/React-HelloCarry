@@ -1,7 +1,6 @@
 .UlMenuNavBar{ display: flex; flex-direction: row;
     max-width: 60vw;
-    .LiMenuNavBar{list-style: none; 
-        .AMenuNavBar{ color: white; text-decoration: none; margin: 0 7px; padding: 5px; 
+    .Link {list-style: none; color: white; text-decoration: none; margin: 0 7px; padding: 5px; 
         &:active {font-weight: 700;}
         &:hover {text-decoration: underline ; font-weight: 600;
             -webkit-box-shadow: 1px 1px 44px 2px rgba(65,134,171,1);
@@ -9,4 +8,3 @@
             box-shadow: 1px 1px 44px 2px rgba(65,134,171,1);}
     }
     }
-}

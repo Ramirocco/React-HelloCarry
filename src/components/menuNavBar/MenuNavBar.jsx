@@ -1,37 +1,23 @@
 import "./MenuNavBar.scss"
+import { Link } from "react-router-dom";
 export const MenuNavBar = () => {
     return (
         <ul className="UlMenuNavBar">
-            <li className="LiMenuNavBar">
-                <a className="AMenuNavBar" href="">
-                    Quienes Somos
-                </a>
-            </li>
-            <li className="LiMenuNavBar">
-                <a className="AMenuNavBar" href="">
-                    Articulos Deportivos
-                </a>
-            </li>
-            <li className="LiMenuNavBar">
-                <a className="AMenuNavBar" href="">
-                    Indumentaria
-                </a>
-            </li>
-            <li className="LiMenuNavBar">
-                <a className="AMenuNavBar" href="">
-                    Actividades
-                </a>
-            </li>
-            <li className="LiMenuNavBar">
-                <a className="AMenuNavBar" href="">
-                    Accesorios
-                </a>
-            </li>
-            <li className="LiMenuNavBar">
-                <a className="AMenuNavBar" href="">
-                    Novedades
-                </a>
-            </li>
+            <Link className="Link" to="/">
+                Nosotros
+            </Link>
+            <Link className="Link" to="/category/ArticulosDeportivos">
+                Articulos Deportivos
+            </Link>
+            <Link className="Link" to="/category/Indumentaria">
+                Indumentaria
+            </Link>
+            <Link className="Link" to="/category/Accesorios">
+                Accesorios
+            </Link>
+            <Link className="Link" to="/">
+                Todos los productos
+            </Link>
         </ul>
     )
 };
