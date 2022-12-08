@@ -9,10 +9,10 @@ export const MenuNavBar = () => {
             <Link className="Link" to="/category/ArticulosDeportivos">
                 Articulos Deportivos
             </Link>
-            <Link className="Link" to="/category/Indumentaria">
+            <Link className="Link" to="/category/indumentaria">
                 Indumentaria
             </Link>
-            <Link className="Link" to="/category/Accesorios">
+            <Link className="Link" to="/category/accesorios">
                 Accesorios
             </Link>
             <Link className="Link" to="/">

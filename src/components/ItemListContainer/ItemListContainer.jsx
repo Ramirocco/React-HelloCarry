@@ -5,13 +5,17 @@ import "./ItemListContainer.scss"
 
 export const ItemListContainer = () => {
 
-
 const [items, setItems] = useState([])
+const { category } = useParams()
 
 useEffect(() => {
+    const productsFiltered = products.filter(
+        (productos) => productos.category === category
+    )
+
 const task = new Promise ((resolve, reject) => {
     setTimeout(() => {
-        resolve(products)
+        resolve(category ? productsFiltered : products)
     }, 2000);
 })
     task
@@ -22,7 +26,9 @@ const task = new Promise ((resolve, reject) => {
             console.log("error al traer productos")
         })
     console.log("se realizo la peticion")
-})
+
+}, [category])
+
     return(
         <div className= "ListContainer">
             <ItemList items={items}/>
