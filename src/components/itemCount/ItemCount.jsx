@@ -21,7 +21,6 @@ export const ButtonAddCarrito = ({ Texto, Texto2, Stock }) => {
 
   return (
     <div className="Container">
-      <p className="descripcionProducto">Descripcion del item</p>
       <div className="ManejadorCounter">
         <button className="Manejador" onClick={restar}>-</button>
         <p>{counter}</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./itemList.scss"
 import { Item } from '../item/Item'
 
 
@@ -8,7 +9,7 @@ export const ItemList = ({items}) => {
     <div className='Container-Cards'>
     {items.map((element)=>{
         return (
-            <item key={element.Id} element={element}> </item>
+            <Item key={element.Id} element={element}> </Item>
         )})}
     </div>
   )

@@ -1,0 +1,23 @@
+.TarjetaContainer { display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    border-radius: 15px;
+    border:  darkblue solid 3px;
+    padding-bottom: 5px;
+    .ImgTarjeta {
+        max-width: 500px;
+    }
+
+    .NombreProducto {font-size: larger;
+    font-weight: 600;}
+
+    .PrecioProducto {}
+
+    .LinkDetalleProduc {
+
+    }
+}

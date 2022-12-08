@@ -4,7 +4,7 @@ import { products } from '../../productsMock'
 
 import { useParams } from "react-router-dom"
 
-const ItemDetailContainer = () => {
+export const ItemDetailContainer = () => {
 
   const [product, setProduct] = useState({})
 
@@ -25,5 +25,3 @@ const ItemDetailContainer = () => {
     </div>
   )
 }
-
-export default ItemDetailContainer

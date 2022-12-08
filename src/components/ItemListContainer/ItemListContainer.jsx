@@ -22,10 +22,9 @@ const task = new Promise ((resolve, reject) => {
             console.log("error al traer productos")
         })
     console.log("se realizo la peticion")
-
+})
     return(
-        <div className= "titulo">
+        <div className= "ListContainer">
             <ItemList items={items}/>
         </div>
-    );
-})}
+    );}
