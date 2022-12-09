@@ -15,7 +15,7 @@ export const MenuNavBar = () => {
             <Link className="Link" to="/category/accesorios">
                 Accesorios
             </Link>
-            <Link className="Link" to="/">
+            <Link className="Link" to="/category">
                 Todos los productos
             </Link>
         </ul>

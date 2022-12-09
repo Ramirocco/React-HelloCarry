@@ -5,7 +5,7 @@ import "./itemCount.scss";
 export const ButtonAddCarrito = ({ Texto, Texto2, Stock }) => {
 
   let [counter, setCounter] = useState(0)
-  let StockDisponible = Stock
+  let StockDisponible = +Stock
 
   const sumar = () => {
 

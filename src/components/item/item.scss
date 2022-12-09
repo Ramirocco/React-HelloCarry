@@ -9,13 +9,14 @@
     border:  darkblue solid 3px;
     padding-bottom: 5px;
     .ImgTarjeta {
-        max-width: 500px;
+        max-width: 150px;
     }
 
-    .NombreProducto {font-size: larger;
-    font-weight: 600;}
+    .NombreProducto {font-size: x-large;
+    font-weight: 700;}
 
-    .PrecioProducto {}
+    .PrecioProducto {font-size: larger;
+        font-weight: 800;}
 
     .LinkDetalleProduc {
 

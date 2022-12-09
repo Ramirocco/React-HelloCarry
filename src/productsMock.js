@@ -14,7 +14,7 @@ export const products = [
         Id: 2,
         category: "ArticulosDeportivos",
         description: "Antiparras profesionales ARENA ULTRA MIRROR",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/e_background_removal/v1670544172/arena-cobra-ultra-swipe-mirror-swimming-goggles_ot8eaz.jpg",
         stock: 3,
     },
     {
@@ -41,7 +41,7 @@ export const products = [
         Id: 5,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544609/kisspng-zoggs-diving-swimming-fins-goggles-swimsuit-color-flippers-5ae1311882e743.2171193415247076085362_xlvo70.jpg" ,
         stock: 20,
     },
     {
@@ -50,7 +50,7 @@ export const products = [
         Id: 6,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "http://.https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544768/finis-stability-frontal-snorkel_uhyxho.jpgcom" ,
         stock: 5,
     },
     {
@@ -59,7 +59,7 @@ export const products = [
         Id: 7,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "http://.cohttps://res.cloudinary.com/dkolnsx2y/image/upload/v1670544981/Hb8ecc9f4738f4af5be7172ccb20eba51H_sl9pck.jpgm" ,
         stock: 10,
     },
     {
@@ -68,7 +68,7 @@ export const products = [
         Id: 8,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "http://.cohttps://res.cloudinary.com/dkolnsx2y/image/upload/v1670544981/b4c33786-057d-4a92-974f-1d951ec99260_1.dd1ae9fd159bebb929f10994fbbd2c00_gbkd05.jpgm" ,
         stock: 5,
     },
     {
@@ -77,7 +77,7 @@ export const products = [
         Id: 9,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "http://.https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544919/s-l1600_fiqkzk.jpg" ,
         stock: 20,
     },
     {
@@ -86,7 +86,7 @@ export const products = [
         Id: 10,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "http://.https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544809/51JuvqH161L._AC_SX425__dbtciv.jpg" ,
         stock: 40,
     },
     {
@@ -95,7 +95,7 @@ export const products = [
         Id: 11,
         category: "accesorios",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544826/Bolsa-de-nataci-n-de-gran-capacidad-resistente-al-agua-bolso-para-nataci-n-profesional-ASS5734.jpg_Q90.jpg__awygjx.jpg" ,
         stock: 100,
     },
     {
@@ -113,7 +113,7 @@ export const products = [
         Id: 13,
         category: "accesorios",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544825/f5cdd85401aec0f65ef68bcc96ff651e--backpack-colors_jwa8oi.jpg" ,
         stock: 20,
     },
     {

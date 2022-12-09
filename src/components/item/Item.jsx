@@ -7,11 +7,11 @@ export const Item = ({element}) => {
 
   return (
     <div className='TarjetaContainer'>
-        <img className='ImgTarjeta' src={element.img} alt="" />
         <h2 className='NombreProducto'>{element.productName}</h2>
+        <img className='ImgTarjeta' src={element.img} alt="" />
         <p className='PrecioProducto'>${element.price}</p>
-        <Link className='LinkDetalleProducto' to={`/itemDetail/${element.id}`}>Ver detalle</Link>
-        <ButtonAddCarrito  Texto={"sumar"} Texto2={"restar"} Stock={element.Stock} />
+        <Link className='LinkDetalleProducto' to={`/itemDetail/${element.Id}`}>Ver detalle</Link>
+        <ButtonAddCarrito  Texto={"sumar"} Texto2={"restar"} Stock= {element.Stock} />
     </div>
 
   )
