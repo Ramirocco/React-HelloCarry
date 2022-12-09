@@ -11,7 +11,7 @@ export const Item = ({element}) => {
         <img className='ImgTarjeta' src={element.img} alt="" />
         <p className='PrecioProducto'>${element.price}</p>
         <Link className='LinkDetalleProducto' to={`/itemDetail/${element.Id}`}>Ver detalle</Link>
-        <ButtonAddCarrito  Texto={"sumar"} Texto2={"restar"} Stock= {element.Stock} />
+        <ButtonAddCarrito  Texto={"sumar"} Texto2={"restar"} Stock= {element.stock} />
     </div>
 
   )

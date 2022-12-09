@@ -5,7 +5,7 @@ export const products = [
         Id: 1,
         category: "accesorios",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670545802/41A8OJBkq2S._AC_SY1000__dqo626.jpg" ,
         stock: 10,
     },
     {
@@ -23,7 +23,7 @@ export const products = [
         Id: 3,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670545922/D_NQ_NP_942882-MLA43384052262_092020-O_kr95az.jpg" ,
         stock: 5,
     },
     {
@@ -32,7 +32,7 @@ export const products = [
         Id: 4,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670545965/9240459_001_xl_kpz0sk.jpg" ,
         stock: 10,
     },
     {
@@ -50,7 +50,7 @@ export const products = [
         Id: 6,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544768/finis-stability-frontal-snorkel_uhyxho.jpgcom" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544768/finis-stability-frontal-snorkel_uhyxho.jpg" ,
         stock: 5,
     },
     {
@@ -59,7 +59,7 @@ export const products = [
         Id: 7,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.cohttps://res.cloudinary.com/dkolnsx2y/image/upload/v1670544981/Hb8ecc9f4738f4af5be7172ccb20eba51H_sl9pck.jpgm" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544981/Hb8ecc9f4738f4af5be7172ccb20eba51H_sl9pck.jpg",
         stock: 10,
     },
     {
@@ -68,7 +68,7 @@ export const products = [
         Id: 8,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.cohttps://res.cloudinary.com/dkolnsx2y/image/upload/v1670544981/b4c33786-057d-4a92-974f-1d951ec99260_1.dd1ae9fd159bebb929f10994fbbd2c00_gbkd05.jpgm" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544981/b4c33786-057d-4a92-974f-1d951ec99260_1.dd1ae9fd159bebb929f10994fbbd2c00_gbkd05.jpg",
         stock: 5,
     },
     {
@@ -77,7 +77,7 @@ export const products = [
         Id: 9,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544919/s-l1600_fiqkzk.jpg" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544919/s-l1600_fiqkzk.jpg" ,
         stock: 20,
     },
     {
@@ -86,7 +86,7 @@ export const products = [
         Id: 10,
         category: "ArticulosDeportivos",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544809/51JuvqH161L._AC_SX425__dbtciv.jpg" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670544809/51JuvqH161L._AC_SX425__dbtciv.jpg" ,
         stock: 40,
     },
     {
@@ -104,7 +104,7 @@ export const products = [
         Id: 12,
         category: "accesorios",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670545856/D_NQ_NP_766529-MLA40696361713_022020-O_hhvjr2.jpg" ,
         stock: 20,
     },
     {
@@ -122,7 +122,7 @@ export const products = [
         Id: 14,
         category: "indumentaria",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670624929/D_NQ_NP_805531-MLA48353055331_112021-O_zeyfmz.jpg" ,
         stock: 20,
     },
     {
@@ -131,7 +131,7 @@ export const products = [
         Id: 15,
         category: "indumentaria",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670608407/882511136_1_e0dgaa.jpg" ,
         stock: 20,
     },
     {
@@ -140,16 +140,16 @@ export const products = [
         Id: 16,
         category: "indumentaria",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670624976/CR07SH-B2_ttr4oi.jpg" ,
         stock: 20,
     },
     {
         productName: "Campera Hydra",
         price: 5000,
         Id: 17,
-        category: "accesorios",
+        category: "indumentaria",
         description: "Toalla de secado rápido de 80x60cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670625061/600_750-RC214000_campera_rompeviento_degrade_estampa_1_talle_XS_1_liqo0e.jpg" ,
         stock: 20,
     },
     {
@@ -158,7 +158,7 @@ export const products = [
         Id: 18,
         category: "accesorios",
         description: "Toalla de secado rápido de 30x20cm con logo de hidra bordado",
-        img: "http://.com" ,
+        img: "https://res.cloudinary.com/dkolnsx2y/image/upload/v1670545802/41A8OJBkq2S._AC_SY1000__dqo626.jpg" ,
         stock: 10,
     }
 ]
