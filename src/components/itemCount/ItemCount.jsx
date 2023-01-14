@@ -2,10 +2,13 @@ import { useState } from "react";
 import "./itemCount.scss";
 
 
-export const ButtonAddCarrito = ({ Texto, Texto2, Stock }) => {
+export const ButtonAddCarrito = ({ Texto, initial = 1, Stock, onAdd }) => {
 
-  let [counter, setCounter] = useState(0)
+  let [counter, setCounter] = useState(initial)
+  // CAMBIAR EL 0 POR LA CANTIDAD DEL CARRITO dependeiendo del quantity por id
   let StockDisponible = +Stock
+
+// useefecto que setee el counter por initial [inital]
 
   const sumar = () => {
 
@@ -15,9 +18,7 @@ export const ButtonAddCarrito = ({ Texto, Texto2, Stock }) => {
     counter <= 0 ? alert("acción no permitida") : setCounter(counter - 1);
   }
 
-  const onAdd = () => {
-    counter == 0 ? console.log("no funciona click") : alert("se agrego al carrito la cantidad de " + counter + " elementos")
-  }
+  
 
   return (
     <div className="Container">

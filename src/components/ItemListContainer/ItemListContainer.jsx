@@ -1,37 +1,81 @@
-import { useEffect, useState } from "react";
-import { ItemList } from "../itemList/ItemList";
-import { products } from "../../productsMock";
-import {useParams} from "react-router-dom"
 import "./ItemListContainer.scss"
 
-export const ItemListContainer = () => {
+import { collection, getDocs, query, where } from "firebase/firestore"
+import { useEffect, useState } from "react"
 
-const [items, setItems] = useState([])
-const { category } = useParams()
+import DotLoader from "react-spinners/DotLoader"
+import {ItemList} from "../itemList/ItemList"
+import { db } from "../../firebaseConfig"
+import { useParams } from "react-router-dom"
 
-useEffect(() => {
-    const productsFiltered = products.filter(
-        (productos) => productos.category === category
-    )
+const override = {
+  display: "block",
+  margin: "0 auto",
+  borderColor: "red",
+}
 
-const task = new Promise ((resolve, reject) => {
+const ItemListContainer = () => {
+  const { category } = useParams()
+
+  const [items, setItems] = useState([])
+  const [isLoading, setIsLoading] = useState(false)
+
+  useEffect(() => {
+    setIsLoading(true)
+
+    const itemCollection = collection(db, "products")
+
+    if (category) {
+      const q = query(itemCollection, where("category", "==", category))
+      getDocs(q)
+        .then((res) => {
+          const products = res.docs.map((product) => {
+            return {
+              ...product.data(),
+              id: product.id,
+            }
+          })
+
+          setItems(products)
+        })
+        .catch((err) => console.log(err))
+    } else {
+      getDocs(itemCollection)
+        .then((res) => {
+          const products = res.docs.map((product) => {
+            return {
+              ...product.data(),
+              id: product.id,
+            }
+          })
+
+          setItems(products)
+        })
+        .catch((err) => console.log(err))
+    }
+
     setTimeout(() => {
-        resolve(category ? productsFiltered : products)
-    }, 2000);
-})
-    task
-        .then ((res)=>{
-            setItems(res)
-        })
-        .catch ((error)=>{
-            console.log("error al traer productos")
-        })
-    console.log("se realizo la peticion")
+      setIsLoading(false)
+    }, 1000)
+  }, [category])
 
-}, [category])
+  return (
+    <div className="light">
+      {isLoading ? (
+        <DotLoader
+          color={"purple"}
+          cssOverride={override}
+          size={100}
+          aria-label="Loading Spinner"
+          data-testid="loader"
+        />
+      ) : (
+        <ItemList items={items} />
+      )}
 
-    return(
-        <div className= "ListContainer">
-            <ItemList items={items}/>
-        </div>
-    );}
+      {/* <ItemList items={items} /> */}
+    </div>
+  )
+}
+
+export default ItemListContainer

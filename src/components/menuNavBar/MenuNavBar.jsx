@@ -1,5 +1,7 @@
 import "./MenuNavBar.scss"
+
 import { Link } from "react-router-dom";
+
 export const MenuNavBar = () => {
     return (
         <ul className="UlMenuNavBar">
@@ -15,7 +17,7 @@ export const MenuNavBar = () => {
             <Link className="Link" to="/category/accesorios">
                 Accesorios
             </Link>
-            <Link className="Link" to="/category">
+            <Link className="Link" to="/TodosLosProductos">
                 Todos los productos
             </Link>
         </ul>
