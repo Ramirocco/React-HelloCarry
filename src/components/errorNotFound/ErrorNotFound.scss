@@ -1,0 +1,23 @@
+.content{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .imgDe404 {
+        width: 520px;
+        }
+        .content__pYLink{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .pDe404{
+            }
+            .linkDe404{
+                border-radius: 30px;
+                border: 2px solid blue;
+                background-color: cornflowerblue;
+                text-decoration: none;
+                color: white;
+            }
+        }
+        }

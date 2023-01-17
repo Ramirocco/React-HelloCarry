@@ -3,7 +3,7 @@ import "./ItemListContainer.scss"
 import { collection, getDocs, query, where } from "firebase/firestore"
 import { useEffect, useState } from "react"
 
-import DotLoader from "react-spinners/DotLoader"
+import ClockLoader from "react-spinners/ClockLoader"
 import {ItemList} from "../itemList/ItemList"
 import { db } from "../../firebaseConfig"
 import { useParams } from "react-router-dom"
@@ -62,13 +62,7 @@ const ItemListContainer = () => {
   return (
     <div className="light">
       {isLoading ? (
-        <DotLoader
-          color={"purple"}
-          cssOverride={override}
-          size={100}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-        />
+        <ClockLoader color="#18124a" />
       ) : (
         <ItemList items={items} />
       )}

@@ -8,6 +8,9 @@ export const MenuNavBar = () => {
             <Link className="Link" to="/">
                 Nosotros
             </Link>
+            <Link className="Link" to="/TodosLosProductos">
+                Todos los productos
+            </Link>
             <Link className="Link" to="/category/ArticulosDeportivos">
                 Articulos Deportivos
             </Link>
@@ -16,9 +19,6 @@ export const MenuNavBar = () => {
             </Link>
             <Link className="Link" to="/category/accesorios">
                 Accesorios
-            </Link>
-            <Link className="Link" to="/TodosLosProductos">
-                Todos los productos
             </Link>
         </ul>
     )

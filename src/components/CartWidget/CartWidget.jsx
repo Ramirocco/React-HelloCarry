@@ -1,15 +1,22 @@
 import "./CartWidget.scss";
-import { BsFillCartCheckFill} from "react-icons/bs"
+
+import { useContext, useState } from "react"
+
+import { BsFillCartCheckFill } from "react-icons/bs"
+import { CartContext } from "../../context/CartContext"
+import { Link } from "react-router-dom";
 
 export const CardWidget = () => {
+    const { cart } = useContext(CartContext)
+    console.log(cart)
     return (
         <div>
-            <div className="container-fluid d-flex justify-content-end ContainerCardWidget">
-                <div className="navbar-brand row ContainerImgP" href="#">
+            <Link to={"/cart"} className="ContainerCardWidget">
+                <div className="ContainerImgP" href="#">
                     <BsFillCartCheckFill className="svg"/>
-                    <p className="col text-light">99</p>
+                    <p className="pCartWidget">{cart.length}</p>
                 </div> 
-            </div>
+            </Link>
         </div>
     )
 }
